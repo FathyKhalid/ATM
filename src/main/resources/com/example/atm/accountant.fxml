@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="accountantAnchor" maxHeight="600.0" maxWidth="600.0" minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: LAVENDER;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atm.Controllers.accountantController">
+   <children>
+      <Label layoutX="213.0" layoutY="76.0" prefHeight="96.0" prefWidth="176.0" text="ATM" textAlignment="CENTER">
+         <font>
+            <Font name="Lato Black" size="75.0" />
+         </font>
+      </Label>
+      <Label layoutX="184.0" layoutY="165.0" text="Commercial International Bank Egypt">
+         <font>
+            <Font name="Cooper Black" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="withdraw" layoutX="418.0" layoutY="392.0" onMouseClicked="#onWithdrawClick" text="Withdraw ▶">
+         <font>
+            <Font name="Barlow Condensed SemiBold" size="36.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="deposit" layoutX="37.0" layoutY="300.0" onMouseClicked="#onDepositClick" text="◀ Deposit">
+         <font>
+            <Font name="Barlow Condensed SemiBold" size="36.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="pinChange" layoutX="395.0" layoutY="483.0" onMouseClicked="#onPinChangeClick" text="Change PIN ▶">
+         <font>
+            <Font name="Barlow Condensed SemiBold" size="36.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="balanceEnq" layoutX="37.0" layoutY="392.0" onMouseClicked="#onBalanceClick" text="◀ Balance Enquiry">
+         <font>
+            <Font name="Barlow Condensed SemiBold" size="36.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="cancel" layoutX="37.0" layoutY="483.0" onMouseClicked="#onCancelClick" text="◀ Cancel">
+         <font>
+            <Font name="Barlow Condensed SemiBold" size="36.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+   </children>
+</AnchorPane>

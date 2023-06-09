@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="withdrawAnchor" maxHeight="600.0" maxWidth="600.0" minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: LAVENDER;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atm.Controllers.withdrawController">
+   <children>
+      <Label layoutX="213.0" layoutY="76.0" prefHeight="96.0" prefWidth="176.0" text="ATM" textAlignment="CENTER">
+         <font>
+            <Font name="Lato Black" size="75.0" />
+         </font>
+      </Label>
+      <Label layoutX="184.0" layoutY="165.0" text="Commercial International Bank Egypt">
+         <font>
+            <Font name="Cooper Black" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="w2000" layoutX="480.0" layoutY="324.0" onMouseClicked="#onW2000Click" text="2000 ▶">
+         <font>
+            <Font name="Barlow Condensed SemiBold" size="36.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="w200" layoutX="39.0" layoutY="324.0" onMouseClicked="#onW200Click" text="◀ 200">
+         <font>
+            <Font name="Barlow Condensed SemiBold" size="36.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="w5000" layoutX="480.0" layoutY="402.0" onMouseClicked="#onW5000Click" text="5000 ▶">
+         <font>
+            <Font name="Barlow Condensed SemiBold" size="36.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="w1000" layoutX="38.0" layoutY="480.0" onMouseClicked="#onW1000Click" text="◀ 1000">
+         <font>
+            <Font name="Barlow Condensed SemiBold" size="36.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="w500" layoutX="39.0" layoutY="402.0" onMouseClicked="#onW500Click" text="◀ 500">
+         <font>
+            <Font name="Barlow Condensed SemiBold" size="36.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+      <Label fx:id="wOther" layoutX="475.0" layoutY="480.0" onMouseClicked="#onOtherClick" text="Other ▶">
+         <font>
+            <Font name="Barlow Condensed SemiBold" size="36.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
+   </children>
+</AnchorPane>

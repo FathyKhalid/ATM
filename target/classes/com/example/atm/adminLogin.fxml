@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="adminLoginAnchorPane" maxHeight="600.0" maxWidth="600.0" minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: LAVENDER;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atm.Controllers.adminLoginController">
+   <children>
+      <Label layoutX="213.0" layoutY="76.0" prefHeight="96.0" prefWidth="176.0" text="ATM" textAlignment="CENTER">
+         <font>
+            <Font name="Lato Black" size="75.0" />
+         </font>
+      </Label>
+      <Label layoutX="184.0" layoutY="165.0" text="Commercial International Bank Egypt">
+         <font>
+            <Font name="Cooper Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="137.0" layoutY="292.0" prefHeight="22.0" prefWidth="329.0" text="Enter Your PIN:">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="Continue" layoutX="375.0" layoutY="369.0" mnemonicParsing="false" onAction="#onContinueClick" prefHeight="33.0" prefWidth="94.0" text="Continue">
+         <font>
+            <Font name="Century" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <PasswordField fx:id="adminPIN" layoutX="133.0" layoutY="321.0" prefHeight="40.0" prefWidth="336.0" />
+   </children>
+</AnchorPane>

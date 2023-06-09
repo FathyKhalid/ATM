@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="deleteAccAnchorPane" maxHeight="600.0" maxWidth="600.0" minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: LAVENDER;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atm.Controllers.deleteAccController">
+   <children>
+      <Label layoutX="213.0" layoutY="76.0" prefHeight="96.0" prefWidth="176.0" text="ATM" textAlignment="CENTER">
+         <font>
+            <Font name="Lato Black" size="75.0" />
+         </font>
+      </Label>
+      <Label layoutX="184.0" layoutY="165.0" text="Commercial International Bank Egypt">
+         <font>
+            <Font name="Cooper Black" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="number" layoutX="66.0" layoutY="301.0" prefHeight="32.0" prefWidth="468.0" />
+      <Label layoutX="66.0" layoutY="276.0" prefHeight="17.0" prefWidth="320.0" text="Card Number:">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="203.0" layoutY="346.0" prefHeight="23.0" prefWidth="193.0" text="PIN:">
+         <font>
+            <Font name="Arial Black" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="pin" layoutX="203.0" layoutY="371.0" prefHeight="32.0" prefWidth="193.0" />
+      <Button fx:id="deleteButton" layoutX="213.0" layoutY="442.0" mnemonicParsing="false" onAction="#onDeleteClick" prefHeight="66.0" prefWidth="176.0" text="Delete">
+         <font>
+            <Font name="Century Gothic Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

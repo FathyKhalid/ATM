@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="balanceAnchor" maxHeight="600.0" maxWidth="600.0" minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: LAVENDER;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atm.Controllers.balanceEnqController">
+   <children>
+      <Label layoutX="213.0" layoutY="76.0" prefHeight="96.0" prefWidth="176.0" text="ATM" textAlignment="CENTER">
+         <font>
+            <Font name="Lato Black" size="75.0" />
+         </font>
+      </Label>
+      <Label layoutX="184.0" layoutY="165.0" text="Commercial International Bank Egypt">
+         <font>
+            <Font name="Cooper Black" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c6c6cf" height="155.0" layoutY="263.0" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Text fx:id="balanceView" layoutX="20.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Balance: 100000 $" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="576.13671875">
+         <font>
+            <Font name="Arial Nova Cond" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="closeBtn" alignment="CENTER" layoutX="331.0" layoutY="503.0" mnemonicParsing="false" onAction="#onCloseClick" text="Close">
+         <font>
+            <Font name="Century Gothic Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="viewBtn" alignment="CENTER" layoutX="147.0" layoutY="503.0" mnemonicParsing="false" onAction="#onViewClick" prefHeight="47.0" prefWidth="147.0" text="View Balance">
+         <font>
+            <Font name="Century Gothic Bold" size="18.0" />
+         </font>
+      </Button>
+      <Rectangle fx:id="rect" arcHeight="5.0" arcWidth="5.0" fill="#31315e" height="46.0" layoutY="315.0" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" />
+   </children>
+</AnchorPane>

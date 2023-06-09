@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="creditCardAnchorPane" maxHeight="600.0" maxWidth="600.0" minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: LAVENDER;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atm.Controllers.creditCardController">
+   <children>
+      <Label layoutX="213.0" layoutY="76.0" prefHeight="96.0" prefWidth="176.0" text="ATM" textAlignment="CENTER">
+         <font>
+            <Font name="Lato Black" size="75.0" />
+         </font>
+      </Label>
+      <Label layoutX="184.0" layoutY="165.0" text="Commercial International Bank Egypt">
+         <font>
+            <Font name="Cooper Black" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c6c6cf" height="50.0" layoutY="339.0" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c7c7d0" height="50.0" layoutY="421.0" stroke="TRANSPARENT" strokeType="INSIDE" width="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Text layoutX="233.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Success!" textAlignment="CENTER" wrappingWidth="134.13671875">
+         <font>
+            <Font name="Arial Nova Cond" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="83.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Note: Remember The Details" textAlignment="CENTER" wrappingWidth="436.13671875">
+         <font>
+            <Font name="Arial Nova Cond" size="18.0" />
+         </font>
+      </Text>
+      <Label fx:id="number" layoutX="131.0" layoutY="349.0" text="Card Number: $$$$$$$$$$$$$$$$" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Nova Cond Bold Italic" size="24.0" />
+         </font></Label>
+      <Label fx:id="pin" layoutX="227.0" layoutY="431.0" text="PIN Code: $$$$" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Nova Cond Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="Close" alignment="CENTER" layoutX="331.0" layoutY="503.0" mnemonicParsing="false" onAction="#onCloseClick" text="Close">
+         <font>
+            <Font name="Century Gothic Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="view" alignment="CENTER" layoutX="160.0" layoutY="503.0" mnemonicParsing="false" onAction="#onViewClick" prefHeight="47.0" prefWidth="134.0" text="View Details">
+         <font>
+            <Font name="Century Gothic Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

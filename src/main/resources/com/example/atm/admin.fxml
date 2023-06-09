@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="adminAnchorPane" maxHeight="600.0" maxWidth="600.0" minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: LAVENDER;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atm.Controllers.adminController">
+   <children>
+      <Label layoutX="213.0" layoutY="76.0" prefHeight="96.0" prefWidth="176.0" text="ATM" textAlignment="CENTER">
+         <font>
+            <Font name="Lato Black" size="75.0" />
+         </font>
+      </Label>
+      <Label layoutX="184.0" layoutY="165.0" text="Commercial International Bank Egypt">
+         <font>
+            <Font name="Cooper Black" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="add" graphicTextGap="5.0" layoutX="159.0" layoutY="300.0" mnemonicParsing="false" onAction="#onAddClick" prefHeight="58.0" prefWidth="286.0" text="ADD">
+         <font>
+            <Font name="Century Gothic Bold" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="logOut" graphicTextGap="5.0" layoutX="157.0" layoutY="484.0" mnemonicParsing="false" onAction="#onLogOutClick" prefHeight="58.0" prefWidth="286.0" text="Log Out">
+         <font>
+            <Font name="Century Gothic Bold" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="201.0" layoutY="259.0" text="Acountant Managment">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="delete" graphicTextGap="5.0" layoutX="159.0" layoutY="370.0" mnemonicParsing="false" onAction="#onDeleteClick" prefHeight="58.0" prefWidth="286.0" text="DELETE">
+         <font>
+            <Font name="Century Gothic Bold" size="30.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Line endX="100.0" layoutX="302.0" layoutY="458.0" startX="-100.0" />
+   </children>
+</AnchorPane>
