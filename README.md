@@ -1,5 +1,16 @@
 # ATM Managment System
-This repo holds source code for ATM management system using Java and JavaFX for GUI and SQL For Database.
+This repo holds source code for ATM management system
+
+It's a Java project that implements JavaFX for GUI and SQL simulates the known atm machines and the management system for it.
+at Admin module you can:
+• Create an Accountant 
+• Delete the Accountant
+and The program will auto-generate a credit card for it
+at Accountant Module you can:
+I- Quick or specific amount withdraw
+II- Quick or specific amount Deposit
+III- Enquiry Balance
+VI- Change credit card PIN
 
 ![Screenshot 2023-06-09 184350](https://github.com/FathyKhalid/ATM/assets/85445784/e707f6dc-90b7-4826-8a62-42ce70bfe328)
 # Instructions
@@ -8,6 +19,7 @@ To Run on intellij IDE:
 2. Download sqlite-jdbc-3.15.1
 3. Add it to your project Structure
 4. optional: Download DB Browser for SQLite to browse and Run Queries
+5. 
 # Screenshots
 ## Admin Module
 <img src="https://github.com/FathyKhalid/ATM/assets/85445784/7692b53f-8614-4117-ad00-f05c89d0d8b5"  width="400" height="450" ></img>
