@@ -10,6 +10,7 @@ To Run on Intilij IDE:
 4. optional: Download DB Browser for SQLite to browse and Run Queries
 # Screenshots
 ## Admin Module
+<img src="https://github.com/FathyKhalid/ATM/assets/85445784/7692b53f-8614-4117-ad00-f05c89d0d8b5"  width="100" height="120" >
 ![image](https://github.com/FathyKhalid/ATM/assets/85445784/7692b53f-8614-4117-ad00-f05c89d0d8b5)
 ![image](https://github.com/FathyKhalid/ATM/assets/85445784/09aec1ab-0531-43e4-a092-13d8b78edd3e)
 ![image](https://github.com/FathyKhalid/ATM/assets/85445784/70bc9a7d-9e65-4309-bb75-af21d25671e0)
