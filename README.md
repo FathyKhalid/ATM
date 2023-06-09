@@ -1,5 +1,5 @@
 # ATM Managment System
-This repo holds source code for ATM management system using Java and JavaFX as GUI and SQL For Database.
+This repo holds source code for ATM management system using Java and JavaFX for GUI and SQL For Database.
 
 ![Screenshot 2023-06-09 184350](https://github.com/FathyKhalid/ATM/assets/85445784/e707f6dc-90b7-4826-8a62-42ce70bfe328)
 # Instructions
