@@ -11,10 +11,9 @@ To Run on Intilij IDE:
 # Screenshots
 ## Admin Module
 <img src="https://github.com/FathyKhalid/ATM/assets/85445784/7692b53f-8614-4117-ad00-f05c89d0d8b5"  width="400" height="450" >
-![image](https://github.com/FathyKhalid/ATM/assets/85445784/7692b53f-8614-4117-ad00-f05c89d0d8b5)
-![image](https://github.com/FathyKhalid/ATM/assets/85445784/09aec1ab-0531-43e4-a092-13d8b78edd3e)
-![image](https://github.com/FathyKhalid/ATM/assets/85445784/70bc9a7d-9e65-4309-bb75-af21d25671e0)
-![image](https://github.com/FathyKhalid/ATM/assets/85445784/4e93dd35-912e-4d25-939d-eb3e015a8535)
+<img src="https://github.com/FathyKhalid/ATM/assets/85445784/09aec1ab-0531-43e4-a092-13d8b78edd3e"  width="400" height="450" >
+<img src="https://github.com/FathyKhalid/ATM/assets/85445784/70bc9a7d-9e65-4309-bb75-af21d25671e0"  width="400" height="450" >
+<img src="https://github.com/FathyKhalid/ATM/assets/85445784/4e93dd35-912e-4d25-939d-eb3e015a8535"  width="400" height="450" >
 ## Accountant Module
 ![image](https://github.com/FathyKhalid/ATM/assets/85445784/ca7fd2da-99b2-4b3b-80cd-c2415ee7618f)
 ![image](https://github.com/FathyKhalid/ATM/assets/85445784/7f5ab550-1adc-44d8-8762-1d4e2cffc98e)
