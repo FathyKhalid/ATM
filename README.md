@@ -5,7 +5,7 @@ It's a Java project that implements JavaFX for GUI and SQL simulates the known a
 at Admin module you can:<br>
 • Create an Accountant <br>
 • Delete the Accountantand <br>
-The program will auto-generate a credit card for it<br>
+The program will auto-generate a credit card for it.<br>
 at Accountant Module you can:<br>
 I- Quick or specific amount withdraw<br>
 II- Quick or specific amount Deposit<br>
